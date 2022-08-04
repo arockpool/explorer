@@ -1,0 +1,42 @@
+// 全局变量
+$primary: #333FC6;
+// $primary: #1D2047;
+$--color-white: #ffffff;
+$--background-color-base: #ffffff;
+
+// 全局element ui 变量
+$--color-primary: $primary !default;
+$--color-primary-light-1: mix($--color-white, $--color-primary, 10%) !default;
+$--color-primary-light-2: mix($--color-white, $--color-primary, 20%) !default;
+$--color-primary-light-3: mix($--color-white, $--color-primary, 30%) !default;
+$--color-primary-light-4: mix($--color-white, $--color-primary, 40%) !default;
+$--color-primary-light-5: mix($--color-white, $--color-primary, 50%) !default;
+$--color-primary-light-6: mix($--color-white, $--color-primary, 60%) !default;
+$--color-primary-light-7: mix($--color-white, $--color-primary, 70%) !default;
+$--color-primary-light-8: mix($--color-white, $--color-primary, 80%) !default;
+$--color-primary-light-9: mix($--color-white, $--color-primary, 90%) !default;
+
+$--color-success: #67c23a !default;
+$--color-warning: #e6a23c !default;
+$--color-danger: #f56c6c !default;
+$--color-info: #909399 !default;
+
+/// fontSize|1|Font Size|0
+$--font-size-extra-large: 16px !default;
+/// fontSize|1|Font Size|0
+$--font-size-large: 14px !default;
+/// fontSize|1|Font Size|0
+$--font-size-medium: 14px !default;
+/// fontSize|1|Font Size|0
+$--font-size-base: 12px !default;
+/// fontSize|1|Font Size|0
+$--font-size-small: 12px !default;
+/// fontSize|1|Font Size|0
+$--font-size-extra-small: 12px !default;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+

@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  line-height: inherit;
+}
+
+*:focus {
+  outline: none !important;
+}
+
+html {
+  font-size: 12px;
+}
+
+button::after {
+  border: 0;
+}
+
+a:hover {
+  color: #333FC6
+}
+
+/* 时间切换 */
+/* .checkbox-content .first {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.checkbox-content .last {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+} */
+.checkbox-content li{
+  margin-right: 6px;
+  background: rgba(51, 63, 198, 0.06);
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.checkbox-content li:last-child{
+  margin-right: 0;
+}
+
+.checkbox-content .active {
+  color: #fff;
+  background-color: #333fc6ee;
+}
+
+/* 切换样式 */
+.child-link-active {
+  border-color: #333FC6;
+  color: #333FC6;
+}
+
+/* pro子菜单切换样式 */
+.proChild-link-active {
+  border-color: #6F4715;
+  color: #b86b0c;
+}
+
+/* pro7天 30天 90天切换table */
+.activeProTable{
+  /* color: #6F4715;
+  background: #F4BF75; */
+  color: #fff;
+  background-color: #333fc6ee!important;
+}
+
+.circular{
+  margin: 0 auto;
+}
+
+.editionCenter{
+  max-width: 1350px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.tagBox{
+  color: #848599;
+  border: 1px solid #E3E2E6;
+  border-radius: 4px;
+  padding: 2px 6px;
+  margin-left: 4px;
+}
+/* 手机版贯穿背景分割线 */
+.bgbox{
+  width: 1200vw;
+  z-index: 200;
+  position: absolute;
+  left: -10px;
+  background: #F5F5F5;
+}
+
+tbody tr:last-child{
+  border:none!important;
+}
